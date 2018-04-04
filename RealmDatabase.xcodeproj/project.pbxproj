@@ -13,6 +13,7 @@
 		0120E2012074044000C7157C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0120E2002074044000C7157C /* Assets.xcassets */; };
 		0120E2042074044000C7157C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0120E2022074044000C7157C /* LaunchScreen.storyboard */; };
 		0120E20C2074068400C7157C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0120E20B2074068400C7157C /* GoogleService-Info.plist */; };
+		0156E1C62075358900AB248D /* RealmObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0156E1C52075358900AB248D /* RealmObject.swift */; };
 		732A1BA6F07327ED020B8CF5 /* Pods_RealmDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9A16C3374DA9F7AEB91849 /* Pods_RealmDatabase.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		0120E2032074044000C7157C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0120E2052074044000C7157C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0120E20B2074068400C7157C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0156E1C52075358900AB248D /* RealmObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmObject.swift; sourceTree = "<group>"; };
 		3C9A16C3374DA9F7AEB91849 /* Pods_RealmDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54737AE6D29E683FEB1B75E2 /* Pods-RealmDatabase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmDatabase.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmDatabase/Pods-RealmDatabase.release.xcconfig"; sourceTree = "<group>"; };
 		98AC70A61DDF54B76EF8BB63 /* Pods-RealmDatabase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmDatabase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmDatabase/Pods-RealmDatabase.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,9 +67,10 @@
 			children = (
 				0120E1F92074043F00C7157C /* AppDelegate.swift */,
 				0120E1FB2074043F00C7157C /* ViewController.swift */,
+				0156E1C52075358900AB248D /* RealmObject.swift */,
 				0120E1FD2074043F00C7157C /* Main.storyboard */,
-				0120E2002074044000C7157C /* Assets.xcassets */,
 				0120E2022074044000C7157C /* LaunchScreen.storyboard */,
+				0120E2002074044000C7157C /* Assets.xcassets */,
 				0120E20B2074068400C7157C /* GoogleService-Info.plist */,
 				0120E2052074044000C7157C /* Info.plist */,
 			);
@@ -230,6 +233,7 @@
 			files = (
 				0120E1FC2074043F00C7157C /* ViewController.swift in Sources */,
 				0120E1FA2074043F00C7157C /* AppDelegate.swift in Sources */,
+				0156E1C62075358900AB248D /* RealmObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

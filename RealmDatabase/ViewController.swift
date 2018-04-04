@@ -15,7 +15,34 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        grabData()
+    }
+    
+    func grabData() {
+        
+        let databaseRef = Database.database().reference()
+        databaseRef.child("users").observe(.value) { (snapshot) in
+            
+            for snap in snapshot.children.allObjects as! [DataSnapshot] {
+                
+                guard let dictionary = snap.value as? [String: AnyObject] else { return }
+                
+                print(snap)
+                
+                // Creating objects
+                let name = dictionary["name"] as? String
+                let age = dictionary["age"] as? Int
+                
+                // Adding objects to Realm File
+                let UserToAdd = User()
+                UserToAdd.name = name
+                UserToAdd.age.value = age
+                
+                // Writing object to Realm Database
+                UserToAdd.writeToRealm()
+            }
+        }
     }
     
 
