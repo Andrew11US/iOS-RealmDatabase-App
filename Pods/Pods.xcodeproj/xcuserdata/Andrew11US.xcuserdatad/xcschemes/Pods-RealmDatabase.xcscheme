@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1010"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E3EE15149B648A63D3A5889D17C03DF1"
+               BlueprintIdentifier = "DDFD9A0121E21215120B40642CFD99C9"
                BuildableName = "Pods_RealmDatabase.framework"
                BlueprintName = "Pods-RealmDatabase"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E3EE15149B648A63D3A5889D17C03DF1"
+            BlueprintIdentifier = "DDFD9A0121E21215120B40642CFD99C9"
             BuildableName = "Pods_RealmDatabase.framework"
             BlueprintName = "Pods-RealmDatabase"
             ReferencedContainer = "container:Pods.xcodeproj">

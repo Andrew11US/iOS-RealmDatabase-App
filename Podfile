@@ -7,6 +7,6 @@ target 'RealmDatabase' do
 
   pod 'Firebase/Core'
   pod 'Firebase/Database'
-  pod 'RealmSwift'
+  pod 'RealmSwift', '~> 3.13'
 
 end
